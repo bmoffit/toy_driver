@@ -2,7 +2,7 @@
 # Nick Glynn <Nick.Glynn@feabhas.com>
 #
 
-obj-m += misc_sample.o
+obj-m += misc_sample.o cma_test.o
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
